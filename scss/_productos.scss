@@ -1,0 +1,51 @@
+
+  /* Sección "Productos" */
+  .Productos{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: darkslategrey;
+    padding: 20px;
+    border-radius: 10px;
+    .h2{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        text-decoration-line: overline;
+        text-decoration-line: inherit;
+        background-color: rgba(71, 71, 99, 0.644);
+        height: 90px;
+        padding-inline: 15px;
+    }
+    .p{
+        color: antiquewhite;
+        text-align: center;
+        text-decoration-line: none;
+        background-color: #18183b77;
+    }
+}
+.bebida1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.monsterimagen {
+    flex: 0 0 200px; 
+    margin-right: 10px; 
+}
+
+.texto1 {
+   
+    flex: 1;
+}
+.carousel-slide{
+    width: 300px;
+    display: inline-block
+}
+
