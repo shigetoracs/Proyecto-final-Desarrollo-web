@@ -121,14 +121,6 @@
   transform: scale(1.3);
 }
 
-.monsterimagen {
-  flex-wrap: wrap;
-  margin-right: 0;
-  margin-bottom: 20px;
-  height: 180px;
-  width: 180px;
-}
-
 .texto {
   flex: 1;
   padding-inline: 30px;
@@ -204,14 +196,12 @@
   padding: 10px;
   border-radius: 8px;
   height: auto;
-  width: 100%;
+  width: 96%;
 }
-
-.monsterimagen {
-  display: 0 0 100%;
-  margin-right: 10px;
-  width: 20%;
-  height: 20%;
+.bebida1 .monsterimagen {
+  display: flex;
+  width: 180px;
+  height: 100%;
 }
 
 .texto1 {
