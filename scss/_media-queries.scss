@@ -1,28 +1,29 @@
 /* Media query para vista de celular*/
-@media screen and (max-width: 1300px) {
-    .Bienvenidos {
-       padding: 20px;
-       .h2 {
-           padding: 20px;
-       }
-       .p {
-           padding: 10px;
-       }
-   
-   }
-   .bebidas{
-       padding: 20px;
-       flex-direction: column;
-       align-items: center;
-       .bebida{
-           width: 90%;
-       }
-       .monsterimagen{
-           margin-right: 0;
-           margin-bottom: 10px;
-       }
-       .texto{
-           text-align: left;
-       }
-   }
-   }
+@media screen and (max-width: 1300px){}     
+.main {
+  width: 100%;
+  height: 100%;
+}
+.Bienvenidos {
+  padding: 20px;
+  .h2 {
+      padding: 20px;
+  }
+  .p {
+      padding: 10px;
+  }
+
+}
+.bebidas{
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  .bebida{
+      width: 90%;
+  }
+  .monsterimagen{
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}
+
