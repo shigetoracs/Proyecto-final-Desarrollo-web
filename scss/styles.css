@@ -198,10 +198,9 @@
   height: auto;
   width: 96%;
 }
-.bebida1 .monsterimagen {
-  display: flex;
-  width: 180px;
-  height: 100%;
+
+.monsterimagen {
+  height: 180px;
 }
 
 .texto1 {
