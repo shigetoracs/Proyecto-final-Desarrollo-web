@@ -1,7 +1,7 @@
 
   /* Sección "Productos" */
   .Productos {
-    display: flex;
+    
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -11,18 +11,17 @@
     padding: 20px;
     border-radius: 10px;
    
-    .h2{
-        display: flex;
-        flex-wrap: wrap;
+    .imp{
+        display:inline;
         justify-content: center;
         padding-top: 30px;
-        text-decoration-line: overline;
+        text-decoration-line:underline;
         text-decoration-line: inherit;
         background-color: rgba(71, 71, 99, 0.644);
         height: 90px;
         padding-inline: 15px;
     }
-    .p{
+    .textimp{
         display: flex;
         color: antiquewhite;
         text-align: center;
@@ -36,15 +35,16 @@
     margin-bottom: 20px;
     border: 2px solid #ccc;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 14px;
     height: auto;
     width: 96%;
 
-  
+    .monsterimagen {
+    display: flex;
+    width: 180px;
+    height: 100%;
 }
- .monsterimagen {
-    height: 180px;
- }
+}
 
 
 
