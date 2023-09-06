@@ -90,20 +90,23 @@
 .bebidas {
   background-color: #333;
   display: flex;
-  padding: 40px 10%;
+  padding: 60px;
   gap: 10%;
   justify-content: center;
 }
 
+.conteiner {
+  display: flex;
+}
+
 .bebida {
   background-color: rgb(11, 17, 99);
-  width: 100%;
-  max-width: 350px;
+  max-width: 50%;
   border-radius: 40px;
-  overflow: hidden;
   display: flex;
-  flex-direction: column;
-  gap: 15px;
+  flex: 1;
+  flex-direction: flex-start;
+  gap: 30px;
   align-items: flex-start;
 }
 
@@ -137,6 +140,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  margin-bottom: 0;
 }
 
 .left,
@@ -197,6 +201,7 @@
   display: flex;
   width: 180px;
   height: 100%;
+  padding-right: 20px;
 }
 
 .texto1 {
@@ -243,30 +248,61 @@
 }
 
 /* Media query para vista de celular*/
-.main {
-  width: 100%;
-  height: 100%;
+@media screen and (max-width: 990px) {
+  .main {
+    width: 100%;
+    height: 100%;
+  }
+  .Bienvenidos {
+    padding: 20px;
+  }
+  .Bienvenidos .h2 {
+    padding: 20px;
+  }
+  .Bienvenidos .p {
+    padding: 10px;
+  }
+  .tarjetitas {
+    background-color: aquamarine;
+    padding: 60px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .bebidas {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bebidas .bebida {
+    width: 90%;
+  }
+  .bebidas .monsterimagen {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+.tarjetitas {
+  background-color: aquamarine;
+  padding: 60px;
+  display: flex;
+  gap: 30px;
 }
 
-.Bienvenidos {
-  padding: 20px;
-}
-.Bienvenidos .h2 {
-  padding: 20px;
-}
-.Bienvenidos .p {
-  padding: 10px;
-}
-
-.bebidas {
-  padding: 20px;
+.tarjetita {
+  background-color: aqua;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 10px;
+  flex: 1;
 }
-.bebidas .bebida {
-  width: 90%;
+
+.informacion {
+  padding: 0 20px 20px 20px;
 }
-.bebidas .monsterimagen {
-  margin-right: 0;
-  margin-bottom: 10px;
+
+.tarjetita__imagen {
+  max-width: 100%;
 }/*# sourceMappingURL=styles.css.map */
